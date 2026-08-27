@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electrical Contractor Kentucky | Licensed, Insured &amp; Available 24/7</title>
+<meta name="description" content="Licensed electrical contractor serving Kentucky homes and businesses. Panel upgrades, rewiring, emergency repairs &amp; commercial electrical work. Call for a free estimate.">
+<meta name="keywords" content="electrical contractor Kentucky, electrician services Kentucky, emergency electrician Kentucky, licensed electrician Kentucky">
+<link rel="canonical" href="https://www.yourelectricalcontractorky.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Electrical Contractor Kentucky | Licensed, Insured & Available 24/7">
+<meta property="og:description" content="Licensed electrical contractor serving Kentucky homes and businesses. Panel upgrades, rewiring, emergency repairs & commercial electrical work.">
+<meta property="og:url" content="https://www.yourelectricalcontractorky.com/">
+<meta property="og:locale" content="en_US">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "name": "Your Electrical Contractor Kentucky",
+  "image": "https://www.yourelectricalcontractorky.com/og-image.jpg",
+  "@id": "https://www.yourelectricalcontractorky.com/",
+  "url": "https://www.yourelectricalcontractorky.com/",
+  "telephone": "+1-000-000-0000",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Louisville",
+    "addressRegion": "KY",
+    "addressCountry": "US"
+  },
+  "areaServed": "Kentucky",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+}
+</script>
+
+<style>
+  :root{
+    --paper:#F4F2EC;
+    --panel-navy:#101E30;
+    --panel-navy-2:#16283F;
+    --amber:#F2A81D;
+    --copper:#B5652E;
+    --ink:#161A1F;
+    --slate:#4B5563;
+    --line:#D8D3C6;
+    --white:#FFFFFF;
+    --radius:6px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Oswald',sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.02em;
+    color:var(--panel-navy);
+    line-height:1.15;
+    margin:0 0 .6em;
+  }
+  h1{font-size:clamp(2rem,4.4vw,3.4rem);}
+  h2{font-size:clamp(1.4rem,2.6vw,2rem); margin-top:0;}
+  h3{font-size:1.05rem; color:var(--copper); letter-spacing:.04em;}
+  p{margin:0 0 1.1em; color:var(--slate); max-width:70ch;}
+  a{color:var(--copper);}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 24px;}
+
+  /* breaker-panel signature motif */
+  .breaker-row{display:flex; gap:6px; align-items:flex-end;}
+  .breaker{width:9px; height:22px; border-radius:2px; background:#26374F; position:relative;}
+  .breaker.on{background:var(--amber);}
+  .breaker.on::after{content:"";position:absolute; inset:-4px; border:1px solid var(--amber); border-radius:5px; opacity:.35;}
+
+  header.site{
+    background:var(--panel-navy);
+    color:var(--paper);
+    position:sticky; top:0; z-index:20;
+    border-bottom:3px solid var(--amber);
+  }
+  header.site .bar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 24px;
+  }
+  .brand{display:flex; align-items:center; gap:12px;}
+  .brand-mark{display:flex; flex-direction:column; gap:3px;}
+  .brand-name{font-family:'Oswald'; font-size:1.15rem; letter-spacing:.04em; color:var(--white); text-transform:uppercase;}
+  .brand-sub{font-size:.72rem; letter-spacing:.14em; color:var(--amber); text-transform:uppercase; font-family:'IBM Plex Mono';}
+  nav.primary a{
+    color:var(--paper); text-decoration:none; font-size:.85rem; letter-spacing:.03em;
+    margin-left:26px; text-transform:uppercase; font-weight:600; opacity:.85;
+  }
+  nav.primary a:hover{opacity:1; color:var(--amber);}
+  .call-btn{
+    background:var(--amber); color:var(--panel-navy)!important; padding:9px 18px;
+    border-radius:3px; font-weight:700; opacity:1!important;
+  }
+  @media(max-width:820px){ nav.primary{display:none;} }
+
+  /* HERO */
+  .hero{
+    position:relative; overflow:hidden;
+    background:
+      linear-gradient(180deg, rgba(16,30,48,.94), rgba(16,30,48,.97)),
+      repeating-linear-gradient(0deg, transparent, transparent 27px, rgba(242,168,29,.06) 28px),
+      repeating-linear-gradient(90deg, transparent, transparent 27px, rgba(242,168,29,.06) 28px);
+    color:var(--paper);
+  }
+  .hero .wrap{
+    display:grid; grid-template-columns:1.15fr .85fr; gap:48px;
+    padding:76px 24px 64px; align-items:center;
+  }
+  @media(max-width:900px){ .hero .wrap{grid-template-columns:1fr;} }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:10px;
+    font-family:'IBM Plex Mono'; font-size:.78rem; letter-spacing:.14em;
+    color:var(--amber); text-transform:uppercase; margin-bottom:18px;
+  }
+  .hero h1{color:var(--white);}
+  .hero .lede{color:#C9D1DC; font-size:1.08rem; max-width:52ch;}
+  .badges{display:flex; flex-wrap:wrap; gap:10px; margin:26px 0 30px;}
+  .badge{
+    border:1px solid rgba(242,168,29,.4); color:var(--paper);
+    font-family:'IBM Plex Mono'; font-size:.74rem; letter-spacing:.06em;
+    padding:7px 12px; border-radius:3px; text-transform:uppercase;
+  }
+  .hero-ctas{display:flex; gap:14px; flex-wrap:wrap;}
+  .btn-primary{
+    background:var(--amber); color:var(--panel-navy); font-weight:700;
+    padding:14px 26px; border-radius:3px; text-decoration:none; font-size:.95rem;
+    text-transform:uppercase; letter-spacing:.03em;
+  }
+  .btn-ghost{
+    border:1px solid rgba(244,242,236,.4); color:var(--paper); padding:14px 26px;
+    border-radius:3px; text-decoration:none; font-size:.95rem; text-transform:uppercase;
+  }
+  .panel-art{width:100%; height:auto;}
+
+  /* ARTICLE */
+  main{background:var(--paper);}
+  article.content{padding:70px 0 20px;}
+  .article-grid{display:grid; grid-template-columns:minmax(0,72ch) 1fr; gap:56px;}
+  @media(max-width:980px){ .article-grid{grid-template-columns:1fr;} }
+  .side-card{
+    background:var(--white); border:1px solid var(--line); border-radius:var(--radius);
+    padding:22px; height:max-content; position:sticky; top:96px;
+  }
+  .side-card h3{margin-top:0;}
+  .side-card ul{padding-left:18px; margin:0; color:var(--slate); font-size:.92rem;}
+  .side-card li{margin-bottom:8px;}
+
+  section.block{margin:44px 0;}
+  .kicker{
+    font-family:'IBM Plex Mono'; font-size:.72rem; letter-spacing:.16em; color:var(--copper);
+    text-transform:uppercase; margin-bottom:8px; display:block;
+  }
+  ul.check{list-style:none; padding:0; margin:18px 0;}
+  ul.check li{
+    position:relative; padding-left:26px; margin-bottom:10px; color:var(--ink);
+  }
+  ul.check li::before{
+    content:""; position:absolute; left:0; top:8px; width:11px; height:11px;
+    background:var(--amber); border-radius:2px;
+  }
+  .divider{
+    display:flex; align-items:center; gap:14px; margin:52px 0 30px;
+  }
+  .divider .breaker-row{flex-shrink:0;}
+  .divider .line{flex:1; height:1px; background:var(--line);}
+
+  .service-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin:26px 0 10px;}
+  @media(max-width:900px){ .service-grid{grid-template-columns:repeat(2,1fr);} }
+  @media(max-width:520px){ .service-grid{grid-template-columns:1fr;} }
+  .service-card{
+    background:var(--white); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px; text-align:left;
+  }
+  .service-card .num{font-family:'IBM Plex Mono'; color:var(--copper); font-size:.78rem; letter-spacing:.08em;}
+  .service-card h3{margin:8px 0 8px; font-size:.98rem; color:var(--panel-navy);}
+  .service-card p{font-size:.9rem; margin:0;}
+
+  .areas-band{
+    background:var(--panel-navy); color:var(--paper); padding:54px 0; margin:60px 0;
+  }
+  .areas-band h2{color:var(--white);}
+  .areas-band p{color:#C9D1DC;}
+  .city-grid{
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+    gap:10px; margin-top:26px;
+  }
+  .city-chip{
+    border:1px solid rgba(242,168,29,.3); border-radius:3px; padding:10px 12px;
+    font-family:'IBM Plex Mono'; font-size:.82rem; letter-spacing:.02em;
+  }
+
+  .faq{border-top:1px solid var(--line);}
+  .faq-item{border-bottom:1px solid var(--line); padding:22px 0;}
+  .faq-item h3{color:var(--panel-navy); text-transform:none; letter-spacing:0; font-size:1.05rem;}
+
+  footer.site{
+    background:var(--panel-navy); color:#9FADC0; padding:46px 0 30px; margin-top:60px;
+    border-top:3px solid var(--amber);
+  }
+  footer.site .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:24px;}
+  footer.site .brand-name{color:var(--white);}
+  footer.site small{display:block; margin-top:18px; color:#6C7A8E;}
+
+  .cta-strip{
+    background:var(--amber); color:var(--panel-navy); border-radius:var(--radius);
+    padding:34px; display:flex; justify-content:space-between; align-items:center;
+    flex-wrap:wrap; gap:18px; margin:60px 0;
+  }
+  .cta-strip h2{color:var(--panel-navy); margin:0; font-size:1.5rem;}
+  .cta-strip .btn-dark{
+    background:var(--panel-navy); color:var(--paper); padding:14px 26px; border-radius:3px;
+    text-decoration:none; font-weight:700; text-transform:uppercase; font-size:.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap bar">
+    <div class="brand">
+      <div class="breaker-row" aria-hidden="true">
+        <div class="breaker on"></div><div class="breaker"></div><div class="breaker on"></div>
+      </div>
+      <div class="brand-mark">
+        <span class="brand-name">Kentucky Electrical Co.</span>
+        <span class="brand-sub">Licensed &middot; Insured &middot; 24/7</span>
+      </div>
+    </div>
+    <nav class="primary" aria-label="Primary">
+      <a href="#residential">Residential</a>
+      <a href="#commercial">Commercial</a>
+      <a href="#emergency">Emergency</a>
+      <a href="#areas">Service Areas</a>
+      <a href="#faq">FAQ</a>
+      <a class="call-btn" href="tel:+10000000000">Call Now</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" fill="currentColor"/></svg>
+          Kentucky-Licensed Master Electricians
+        </span>
+        <h1>Electrical Contractor Kentucky Homeowners &amp; Businesses Trust</h1>
+        <p class="lede">From panel upgrades to same-night emergency repairs, our Kentucky electrical contractors keep the power on — safely, to code, and without the runaround.</p>
+        <div class="badges">
+          <span class="badge">Licensed &amp; Bonded</span>
+          <span class="badge">Upfront Pricing</span>
+          <span class="badge">24/7 Dispatch</span>
+          <span class="badge">Code-Compliant Work</span>
+        </div>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="tel:+10000000000">Get a Free Estimate</a>
+          <a class="btn-ghost" href="#residential">See Our Services</a>
+        </div>
+      </div>
+      <div>
+        <!-- signature illustration: breaker panel -->
+        <svg class="panel-art" viewBox="0 0 420 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of an electrical breaker panel">
+          <rect x="30" y="20" width="360" height="420" rx="10" fill="#16283F" stroke="#2A4059" stroke-width="2"/>
+          <rect x="52" y="46" width="316" height="46" rx="4" fill="#0D1826"/>
+          <text x="66" y="75" fill="#F2A81D" font-family="IBM Plex Mono" font-size="16" letter-spacing="2">MAIN PANEL &middot; 200A</text>
+          <g>
+            <!-- rows of breakers -->
+            <!-- generated grid -->
+            <g fill="#22344B">
+              <rect x="60" y="112" width="26" height="58" rx="3"/>
+              <rect x="96" y="112" width="26" height="58" rx="3"/>
+              <rect x="132" y="112" width="26" height="58" rx="3"/>
+              <rect x="168" y="112" width="26" height="58" rx="3"/>
+              <rect x="204" y="112" width="26" height="58" rx="3"/>
+              <rect x="240" y="112" width="26" height="58" rx="3"/>
+              <rect x="276" y="112" width="26" height="58" rx="3"/>
+              <rect x="312" y="112" width="26" height="58" rx="3"/>
+            </g>
+            <g fill="#F2A81D">
+              <rect x="60" y="112" width="26" height="24" rx="3"/>
+              <rect x="132" y="112" width="26" height="24" rx="3"/>
+              <rect x="204" y="112" width="26" height="24" rx="3"/>
+              <rect x="312" y="112" width="26" height="24" rx="3"/>
+            </g>
+            <g fill="#22344B">
+              <rect x="60" y="188" width="26" height="58" rx="3"/>
+              <rect x="96" y="188" width="26" height="58" rx="3"/>
+              <rect x="132" y="188" width="26" height="58" rx="3"/>
+              <rect x="168" y="188" width="26" height="58" rx="3"/>
+              <rect x="204" y="188" width="26" height="58" rx="3"/>
+              <rect x="240" y="188" width="26" height="58" rx="3"/>
+              <rect x="276" y="188" width="26" height="58" rx="3"/>
+              <rect x="312" y="188" width="26" height="58" rx="3"/>
+            </g>
+            <g fill="#F2A81D">
+              <rect x="96" y="188" width="26" height="24" rx="3"/>
+              <rect x="168" y="188" width="26" height="24" rx="3"/>
+              <rect x="276" y="188" width="26" height="24" rx="3"/>
+            </g>
+          </g>
+          <circle cx="205" cy="330" r="52" fill="none" stroke="#F2A81D" stroke-width="3" opacity="0.9"/>
+          <path d="M212 296l-30 46h22l-6 36 34-50h-22l2-32z" fill="#F2A81D"/>
+          <text x="205" y="404" text-anchor="middle" fill="#9FADC0" font-family="IBM Plex Mono" font-size="12" letter-spacing="1.5">POWER RESTORED</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <article class="content wrap">
+    <div class="article-grid">
+      <div>
+
+        <p><strong>Finding an electrical contractor Kentucky residents can count on for real emergencies, not just routine outlet swaps, is harder than it should be.</strong> Between old fuse boxes in Louisville shotgun houses, storm-driven outages in Lexington's suburbs, and the humid summers that push central Kentucky's power grid to its limit, homeowners and business owners across the Commonwealth need a licensed team that shows up, diagnoses the problem correctly the first time, and leaves the work safe and up to code.</p>
+
+        <p>That's exactly the gap our team was built to close. Whether you need a routine panel inspection or a same-night repair after a storm knocks out power, dependable <a href="https://emergencyelectriciankentucky.com/">electrician services Kentucky</a> property owners can call at 2 a.m. make the difference between a quick fix and a house fire. We carry a Kentucky electrical contractor license, full liability insurance, and a crew trained to handle everything from a flickering hallway light to a full commercial three-phase installation.</p>
+
+        <p>Every job starts the same way: a clear inspection, an honest explanation of what's wrong, and a written estimate before any wire gets touched. No inflated "diagnostic fees," no upselling parts you don't need. Just licensed, code-compliant electrical work backed by a workmanship warranty.</p>
+
+        <div class="divider">
+          <div class="breaker-row" aria-hidden="true"><div class="breaker on"></div><div class="breaker"></div><div class="breaker"></div></div>
+          <div class="line"></div>
+        </div>
+
+        <section class="block" id="residential">
+          <span class="kicker">Residential</span>
+          <h2>Residential Electrical Services Across Kentucky</h2>
+          <p>Kentucky's housing stock spans everything from pre-war bungalows with knob-and-tube wiring to brand-new subdivisions wired for smart-home tech. Our residential electricians work on all of it. Common calls include:</p>
+          <ul class="check">
+            <li>Whole-home rewiring for older properties in Louisville, Lexington, and Frankfort</li>
+            <li>Panel and breaker replacements, including upgrades from 60/100 amp to 200 amp service</li>
+            <li>Recessed, outdoor, and landscape lighting installation</li>
+            <li>GFCI and AFCI outlet upgrades for kitchens, bathrooms, and garages</li>
+            <li>EV charger installation for home garages and driveways</li>
+            <li>Whole-house surge protection and standby generator hookups</li>
+            <li>Ceiling fan, chandelier, and fixture installation</li>
+          </ul>
+          <p>Every residential job is pulled under the proper permit where required and inspected against the current National Electrical Code (NEC) adopted by the state, so you're never left with work that complicates a future home sale or insurance claim.</p>
+        </section>
+
+        <section class="block" id="commercial">
+          <span class="kicker">Commercial &amp; Industrial</span>
+          <h2>Commercial and Industrial Electrical Solutions</h2>
+          <p>Downtime costs money, and commercial electrical problems rarely wait for a convenient hour. Our commercial division supports retail buildouts, restaurants, warehouses, and light-industrial clients across the state with:</p>
+          <ul class="check">
+            <li>Tenant improvement and build-out wiring</li>
+            <li>Three-phase power installation and load balancing</li>
+            <li>Preventive maintenance contracts and thermal-imaging inspections</li>
+            <li>Energy-efficient lighting retrofits (LED conversions)</li>
+            <li>Emergency generator and transfer-switch systems</li>
+            <li>Code compliance work for inspections and occupancy permits</li>
+          </ul>
+          <p>Our commercial crews carry the insurance limits and OSHA safety documentation property managers and general contractors ask for, and we schedule after-hours work when a shutdown can't happen during business hours.</p>
+        </section>
+
+        <section class="block" id="emergency">
+          <span class="kicker">Emergency Response</span>
+          <h2>24/7 Emergency Electrical Repair in Kentucky</h2>
+          <p>Kentucky's spring storms and ice-heavy winters are hard on above-ground lines, panels, and outdoor equipment. When something goes wrong after hours, it usually falls into one of these categories:</p>
+          <h3>Warning Signs That Need Immediate Attention</h3>
+          <ul class="check">
+            <li>A burning smell near an outlet, switch, or the panel itself</li>
+            <li>Breakers that trip repeatedly with no obvious cause</li>
+            <li>Warm or discolored outlet covers and switch plates</li>
+            <li>Flickering lights across multiple rooms, not just one bulb</li>
+            <li>Sparking outlets or visible arcing at the panel</li>
+            <li>Total loss of power to part of the house after a storm</li>
+          </ul>
+          <p>If you notice any of the above, shut off power to the affected circuit at the panel if it's safe to do so, and call a licensed electrician immediately. These aren't "wait until Monday" problems — they're the leading causes of residential electrical fires in the state.</p>
+        </section>
+
+        <section class="block" id="panels">
+          <span class="kicker">Panel Upgrades</span>
+          <h2>Electrical Panel Upgrades and Rewiring</h2>
+          <p>A huge share of Kentucky's older housing stock — particularly in Louisville's historic neighborhoods and small towns across the state — is still running on 60 or 100 amp fuse panels never designed for today's air conditioners, electric ranges, and home electronics. Upgrading to a modern 200 amp breaker panel isn't just about convenience; it's about safety margin.</p>
+          <h3>Signs Your Panel Needs an Upgrade</h3>
+          <ul class="check">
+            <li>Your home still uses screw-in fuses instead of breakers</li>
+            <li>You rely on extension cords or power strips as permanent wiring</li>
+            <li>An insurance company has flagged the panel brand or age</li>
+            <li>You're adding a hot tub, EV charger, or workshop and need more capacity</li>
+            <li>The panel is rusted, humming, or shows scorch marks</li>
+          </ul>
+          <p>We handle the permit, the utility coordination, and the final inspection so the upgrade goes smoothly from the first walkthrough to the final sign-off.</p>
+        </section>
+
+        <div class="divider">
+          <div class="breaker-row" aria-hidden="true"><div class="breaker"></div><div class="breaker on"></div><div class="breaker"></div></div>
+          <div class="line"></div>
+        </div>
+
+        <section class="block">
+          <span class="kicker">Why Us</span>
+          <h2>Why Hire a Licensed Electrical Contractor in Kentucky</h2>
+          <p>Kentucky requires electrical contractors to hold a state-issued license, and for good reason: electrical work that's improperly permitted or installed can void your homeowner's insurance, fail a home inspection, or — worse — start a fire. Hiring a licensed, insured contractor means:</p>
+          <ul class="check">
+            <li>Work is pulled under permit and inspected where the code requires it</li>
+            <li>You're covered if something goes wrong on the job site</li>
+            <li>Materials and workmanship come with a written warranty</li>
+            <li>Your home's electrical history stays clean for future resale or refinancing</li>
+          </ul>
+        </section>
+
+        <div class="cta-strip">
+          <h2>Need an Electrician Today?</h2>
+          <a class="btn-dark" href="tel:+10000000000">Call for 24/7 Dispatch</a>
+        </div>
+
+        <section class="block" id="faq">
+          <span class="kicker">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq">
+            <div class="faq-item">
+              <h3>How fast can an electrical contractor reach me in Kentucky?</h3>
+              <p>For active hazards — sparking outlets, burning smells, total power loss — we dispatch same-day, including nights and weekends. Routine work like fixture installs or inspections is typically scheduled within a few business days.</p>
+            </div>
+            <div class="faq-item">
+              <h3>How much does a panel upgrade cost?</h3>
+              <p>Pricing depends on panel size, permit requirements, and whether the service line also needs updating. We provide a written, no-obligation estimate after a short on-site inspection.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Do you pull permits for electrical work?</h3>
+              <p>Yes. Any work that Kentucky's adopted electrical code requires to be permitted is filed and inspected properly, protecting your warranty and your home's resale value.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Do you serve both residential and commercial customers?</h3>
+              <p>Yes — our crews split between home service calls and commercial/industrial projects, including retail build-outs, restaurants, and light-industrial facilities.</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <aside class="side-card">
+        <h3>At a Glance</h3>
+        <ul>
+          <li>Kentucky-licensed &amp; insured electrical contractor</li>
+          <li>24/7 emergency dispatch, every county we serve</li>
+          <li>Free written estimates, no hidden fees</li>
+          <li>Residential, commercial &amp; industrial work</li>
+          <li>Permitted, code-compliant, and warrantied</li>
+        </ul>
+      </aside>
+    </div>
+  </article>
+
+  <section class="areas-band" id="areas">
+    <div class="wrap">
+      <span class="kicker" style="color:var(--amber);">Coverage</span>
+      <h2>Areas We Proudly Serve in Kentucky</h2>
+      <p>Our trucks run routes across central and northern Kentucky, with emergency dispatch available statewide.</p>
+      <div class="city-grid">
+        <div class="city-chip">Louisville</div>
+        <div class="city-chip">Lexington</div>
+        <div class="city-chip">Bowling Green</div>
+        <div class="city-chip">Owensboro</div>
+        <div class="city-chip">Frankfort</div>
+        <div class="city-chip">Elizabethtown</div>
+        <div class="city-chip">Richmond</div>
+        <div class="city-chip">Georgetown</div>
+        <div class="city-chip">Florence</div>
+        <div class="city-chip">Nicholasville</div>
+        <div class="city-chip">Jeffersontown</div>
+        <div class="city-chip">Radcliff</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <span class="brand-name" style="font-family:'Oswald'; font-size:1.1rem;">Kentucky Electrical Co.</span>
+      <p style="max-width:40ch; margin-top:10px;">Licensed electrical contractor providing residential, commercial, and emergency electrical services throughout Kentucky.</p>
+    </div>
+    <div>
+      <p class="mono" style="color:#C9D1DC;">Call: (000) 000-0000<br>Available 24 hours a day, 7 days a week</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <small>&copy; 2026 Kentucky Electrical Co. All rights reserved. Licensed &amp; insured electrical contractor.</small>
+  </div>
+</footer>
+
+</body>
+</html>
