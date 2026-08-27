@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crescentmoversllc.gitlab.io/local-electrician-kentucky/sitemap.xml
